@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/output.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
 </head>
 <body>
      <!-- Navbar -->
-   <nav class="md:bg-[#131B2F] md:p-6 sm:p-5">
+    <nav class="md:bg-[#131B2F] md:p-6 p-5">
     <!-- Flex container -->
-    <div class="flex relative md:container md:mx-auto justify-between items-center md:px-18">
+    <div class="flex relative md:container md:mx-auto justify-between items-center md:px-5">
         <!-- logo -->
       <div>
-       <img src="/img/logo.png"  alt="logo">
+       <img src="/img/logo.png"  alt="logo" class="h-[20px]">
       </div>
 
       <!-- Menu Items -->
-       <div class="hidden md:flex space-x-6 text-gray-400">
+       <div class="hidden md:flex gap-3 text-[12px] items-center text-gray-400">
          <a href="#" class="hover:text-white">Products</a>
          <a href="#" class="hover:text-white">Partnerships</a>
          <a href="#" class="hover:text-white">Sponsorships</a>
@@ -30,7 +32,7 @@
        </div>
 
        <!-- Button -->
-        <a href="" class="hidden md:block p-3 px-6 pt-2 text-white rounded-full baseline bg-gradient-to-br from-[#1870f6] to-[#32fefe] from-70%">Launch App</a>
+        <a href="" class="hidden md:block py-2 text-center px-3 my-2  text-white rounded-full  baseline bg-gradient-to-br from-[#1870f6] to-[#32fefe] from-70%">Launch App</a>
 
         <!-- Hambugger -->
          <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
@@ -56,11 +58,11 @@
 
   <!-- ticker-container -->
 
-  <div class="ticker pt-6 flex md:justify-center md:container mx-auto sm:px-5">
+  <div class="ticker pt-6 flex md:justify-center md:container mx-auto px-5">
 
     <!-- CTA -->
      <div class="">
-      <h1 class="md:text-[16px] bg-[#00f6ff] p-3 rounded-2xl">
+      <h1 class="md:text-[10px] bg-[#00f6ff] p-2 rounded-2xl text-[12px] ">
         <strong>Eagle AI Labs:</strong> Partnership and Co-Ownership of a U.S. Regulated Crypto Hedgefund. This enables us to launch a new product, TradeDividends. <a href="#" class="font-bold underline">Learn More</a>
       </h1>
      </div>
@@ -70,25 +72,25 @@
   <!-- Hero -->
    <section id="hero" >
     <!-- flex-container -->
-     <div class="md:container flex flex-col items-center mx-auto text-center justify-between md:px-18 mt-10 space-y-0 md:flex-row px-5">
+     <div class="md:container flex flex-col items-center mx-auto text-center justify-between md:gap-2 mt-10 space-y-0 md:flex-row px-5">
       <!-- left-item -->
        <div class="flex flex-col mb-32 md:space-y-10 space-y-8 md:max-w-[50%]">
-        <h1 class="text-center md:text-[80px] md:text-left leading-20 bg-gradient-to-r from-[#0207f7] to-[#14ffff] text-transparent bg-clip-text font-poppins text-8xl sm:text-left sm:leading-25">
+        <h1 class=" text-[70px] md:text-[40px] text-left leading-20 bg-gradient-to-r from-[#0207f7] to-[#14ffff] text-transparent bg-clip-text  sm:leading-15">
           Pioneering the Future of Digital Asset Investment
         </h1>
 
-        <p class=" text-white text-left text-2xl md:text-[18px]">
+        <p class=" text-white text-left text-1xl md:text-[18px]">
           Eagle AI Labs is revolutionizing crypto asset management through our ground-breaking partnership with a U.S.-regulated crypto hedge fund. This exclusive collaboration combines our advanced AI-powered BTC prediction technology with institutional-grade investment expertise.
         </p>
 
         <div class="flex justify-start sm:max-w-full">
-          <a href="" class=" p-5  pt-2 text-white rounded-full baseline bg-gradient-to-r from-[#073f93] to-[#32fefe]/60 sm:w-[70%] text-2xl text-left md:w-[60%] md:text-[20px]">Register your interest now</a>
+          <a href="" class=" p-5  text-white rounded-full baseline bg-gradient-to-r from-[#073f93] to-[#32fefe]/60 w-[70%] text-1xl text-left md:w-[80%] md:text-[14px]">Register your interest now</a>
 
         </div>
        </div>
 
        <!-- right-image -->
-       <div>
+       <div data-aos="fade-up">
         <img src="/img/right.png" alt="">
        </div>
        
@@ -100,32 +102,34 @@
 
    <section id="hero-2">
     <!-- flex-container -->
-    <div class="md:container flex flex-col items-center mx-auto text-center justify-between md:px-18 mt-10 space-y-0 m md:flex-row sm:px-5 gap-10">
+    <div class="md:container flex flex-col items-center md:mx-auto md:text-center justify-between md:gap-2 mt-10 space-y-0 m md:flex-row px-5 gap-10" data-aos="fade-up">
 
        <!-- left-image -->
-       <div class="md:w-full hidden md:block">
+       <div class=" hidden md:block">
         <img src="/img/Trade3 1.png" class="sm:hidden md:block md:w-full" alt="" >
        </div>
 
        <!-- mobile-left-image -->
-       <div class="sm:w-full mb-5 md:hidden">
+       <div class="w-full mb-5 md:hidden flex justify-center">
         <img src="/img/Trade3 1 (1).png "  alt="" class="md:hidden sm:w-full">
        </div>
 
       <!-- right-item -->
-       <div class="flex flex-col mb-32 space-y-5 md:max-w-[100%] sm:w-full">
-        <h1 class="text-[40px] text-left  text-white">
+       <div class="flex flex-col mb-32 space-y-5 w-full justify-center md:space-y-2 md:mt-20">
+        <h1 class="text-[45px] md:text-left text-white md:text-[25px] md:w-full">
           A new era in crypto investment
         </h1>
 
-        <p class="text-white text-left text-[15px]">
+        <p class="text-white md:text-left text-[15px] md:text-[10px]">
           Our partnership represents a milestone in institutional crypto adoption, featuring:
         </p>
 
-        <div class="list-disc text-[#8ca0b3] text-left text-[15px] pl-3 md:pl-0">
+        <div class="text-[#8ca0b3] text-left text-[15px] pl-3 md:pl-0 md:text-[10px]">
+
+          <ul class="list-disc ml-5">
 
             <li>Exclusive licensing of Eagle AI Labs' proprietary BTC price prediction algorithms</li>
-            <li>Significant equity stake in a fully regulated U.S. hedge fund</li>
+            <li>Significant equity stake in a fully regulated U.S. <br>hedge fund</li>
             <li>Management team with proven track record of managing billions in AUM</li>
             <li>Full compliance with U.S. regulatory requirements</li>
             <li>Strategic timing aligned with anticipated favourable U.S. regulatory environment</li>
@@ -140,20 +144,20 @@
 
     <section id="hero-3" class="">
        <!-- flex-container -->
-    <div class="md:container flex flex-col-reverse items-center mx-auto text-center justify-between md:px-18 mt-10 space-y-0 m md:flex-row sm:px-5 gap-10">
+    <div class="md:container flex flex-col-reverse items-center mx-auto text-center justify-between  mt-10 space-y-0 m md:flex-row px-5 gap-10 md:gap-0" data-aos="fade-up">
 
      <!-- right-item -->
-      <div class="flex flex-col mb-32 space-y-7 md:max-w-[100%] sm:w-full md:mt-20">
-       <h1 class="md:text-[40px] text-left  text-white text-7xl sm:leading-20">
+      <div class="flex flex-col mb-32 space-y-7 md:max-w-[100%] md:mt-20 md:space-y-2">
+       <h1 class="md:text-[20px] text-left  text-white text-[45px] leading-15 md:leading-10">
         Trade Dividends<br>
         Rewarding our comunity
        </h1>
 
-       <p class="text-white text-left md:text-[15px] sm:text-4xl">
+       <p class="text-white text-left md:text-[6px] text-1xl">
         This institutional partnership enables the launch of our innovative TradeDividends program:
        </p>
 
-       <div class="list-disc text-[#8ca0b3] text-left text-[15px] pl-3 md:pl-0">
+       <div class="list-disc text-[#8ca0b3] text-left text-[15px] pl-3 md:pl-0 md:text-[6px]">
 
            <li>Exclusive USDC rewards for $EAI stakers</li>
            <li>Direct benefit from institutional trading success</li>
@@ -163,8 +167,8 @@
        </div>
 
        <!-- left-image -->
-      <div class="md:w-full hidden md:block">
-        <img src="/img/Trade3 1 (2).png" class="sm:hidden md:block md:w-full" alt="" >
+      <div class=" hidden md:block">
+        <img src="/img/Trade3 1 (2).png" class="sm:hidden md:block p-4" alt="" >
        </div>
  
        <!-- mobile-left-image -->
@@ -180,48 +184,52 @@
 
 
     <!-- section-sign-up-form -->
-    <section id="section-sign-up" class="mb-20 mt-30">
+    <section id="section-sign-up" class="mb-20 mt-10" data-aos="fade-up">
       <!-- text -->
-      <div class="text-white md:text-[50px] md:container flex  items-center mx-auto text-left mt-10 md:px-18 px-6 text-[80px] leading-24">
+      <div class="text-white md:text-[25px] md:container flex  items-center mx-auto text-left mt-10  px-6 text-[45px] leading-15">
         <p class="w-full">Limited Availability - Register now to join wait List</p>
       </div>
 
       <!-- form-section -->
 
       <div>
-        <div class="md:container flex flex-col items-center md:items-start mx-auto text-center justify-between md:px-18 mt-10 space-y-0  sm:px-5 gap-10 md:flex-row">
+        <div class="md:container flex flex-col items-center md:items-start mx-auto text-center justify-between  mt-10 space-y-0  px-5 gap-10 md:flex-row" data-aos="fade-up">
 
         <!-- form-left -->
-         <div class="flex flex-col gap-10 w-full">
+         <div class="flex flex-col gap-10 w-full md:gap-0">
 
           <!-- top -->
-           <div class="flex md:flex-row bg-[#ffffff]/10 gap-2 p-10 rounded-3xl flex-col">
+           <div class="flex md:flex-row bg-[#ffffff]/10 gap-2 p-5 rounded-3xl flex-col m-10 md:m-0" data-aos="fade-up">
 
             <!-- icon -->
-             <div class="flex justify-center">
-              <img src="/img/icons.png" alt="" class="md:h-1/2 md:w-[200px]">
+             <div class="flex justify-center md:h-1/2">
+              <img src="/img/icons.png" alt="" class="">
              </div>
 
              <!-- text -->
-              <div class="text-white text-left space-y-4 md:pr-20">
-                <h1 class="text-[25px] text-center md:text-left">
+              <div class="text-white text-left space-y-4 ">
+                <h1 class="text-[25px] text-center md:text-left md:text-[15px]">
                   Limited Access Available
                 </h1>
 
-                <p class="text-[#8ca0b3]">
+                <p class="text-[#8ca0b3] md:text-[10px]">
                   Be among the first to access institutional-grade crypto investment opportunities. Our exclusive waitlist is now open for: <br>
         
                 </p>
 
 
-                <div class="list-disc ml-4 ">
+                <div class=" ml-4 ">
+
+                  <ul class="md:text-[10px] list-disc">
                 
                   <li class="text-[#8ca0b3]" >Early Community Members</li>
-                  <li class="text-[#8ca0b3]">Active $EAI Holders</li> 
+                  <li class="text-[#8ca0b3]">Active $EAI Holders</li>
+                  
+                  </ul>
         
                 </div>
 
-                <p class="text-[#8ca0b3]">
+                <p class="text-[#8ca0b3] md:text-[10px]">
                   🔒 Waitlist Closes: January 31, 2025
                 </p>
               </div>
@@ -230,7 +238,7 @@
            </div>
 
            <!-- bottom -->
-              <div class="flex md:flex-row bg-[#ffffff]/10 gap-2 p-10 rounded-3xl flex-col">
+              <div class="flex md:flex-row bg-[#ffffff]/10 gap-2 p-5 m-10 rounded-3xl flex-col md:m-0 md:mt-10" data-aos="fade-up">
 
                 <!-- icon -->
                  <div class="flex justify-center md:h-3/4">
@@ -238,20 +246,26 @@
                  </div>
     
                  <!-- text -->
-                  <div class="text-white text-left space-y-4 md:pr-20 ">
-                    <h1 class="text-[25px] text-center md:text-left">
+                  <div class="text-white text-left space-y-4 ">
+                    <h1 class="text-[25px] text-center md:text-left md:text-[15px]">
                       Benefits of signing up early
                     </h1>
     
                     
     
-                    <div class="list-disc md:ml-4">
+                    <div class=" md:ml-4">
+
+                      <ul class="list-disc ml-4 md:text-[10px]">
                     
                       <li class="text-[#8ca0b3]" >Priority access when the fund launches</li>
                       <li class="text-[#8ca0b3]">Early information about TradeDividends</li> 
                       <li class="text-[#8ca0b3]">Exclusive insights from our institutional trading team</li>
                       <li class="text-[#8ca0b3]">Special allocation opportunities</li> 
+
+                      </ul>
                     </div>
+
+                
     
                     
                   </div>
@@ -262,17 +276,17 @@
          </div>
 
          <!-- form-left -->
-          <div class="flex md:w-3/4 w-full">
+          <div class="flex md:w-3/4" data-aos="fade-up">
 
-          <form action="" class="flex flex-col gap-[70px] w-full sm:text-2xl">
+          <form action="" class="flex flex-col gap-[40px] w-full text-2xl">
 
-            <input type="text" class="rounded-full md:bg-[#ffffff]/10 bg-[#ffff]/20 p-9 md:p-5 text-white" placeholder="First Name">
-            <input type="text" class="rounded-full md:bg-[#ffffff]/10 md:p-5 p-9 bg-[#ffff]/20 text-white" placeholder="Last Name">
-            <input type="email" class="rounded-full md:bg-[#ffffff]/10 md:p-5 p-9 bg-[#ffff]/20 text-white" placeholder="Email">
-            <input type="text" class="rounded-full md:bg-[#ffffff]/10 md:p-5 p-9 bg-[#ffff]/20 text-white" placeholder="Telegram User">
+            <input type="text" class="rounded-full md:bg-[#ffffff]/10 bg-[#ffff]/20 p-4 md:p-5 text-white md:text-[15px]" placeholder="First Name">
+            <input type="text" class="rounded-full md:bg-[#ffffff]/10 md:p-5 p-4 bg-[#ffff]/20 text-white md:text-[15px]" placeholder="Last Name">
+            <input type="email" class="rounded-full md:bg-[#ffffff]/10 md:p-5 p-4 bg-[#ffff]/20 text-white md:text-[15px]" placeholder="Email">
+            <input type="text" class="rounded-full md:bg-[#ffffff]/10 md:p-5 p-4 bg-[#ffff]/20 text-white md:text-[15px]" placeholder="Telegram User">
 
-            <div class="flex justify-end sm:max-w-full">
-              <a href="" class=" md:p-5  p-7  text-white rounded-full baseline bg-gradient-to-r from-[#073f93] to-[#32fefe]/60 sm:w-full text-2xl md:text-left md:w-[60%]  md:text-[20px]">Register your interest now</a>
+            <div class="flex md:justify-end max-w-full justify-center">
+              <a href="" class=" md:p-5  p-4 w-full  text-white rounded-full baseline bg-gradient-to-br from-[#073f93] to-[#32fefe] text-1xl md:text-center md:w-[60%]  md:text-[10px]">Register your interest now</a>
     
             </div>
 
@@ -287,22 +301,24 @@
 
     <!-- section-coming-soon -->
 
-    <section id="coming-soon">
+    <section id="coming-soon" data-aos="fade-up">
 
-      <div class="md:flex bg-gradient-to-br from-[#1870f6] to-[#32fefe] p-10 from-70% md:px-[140px] md:py-[100px] md:flex-col box-content m-5 mb-35 md:m-0">
+      <div class="md:flex bg-gradient-to-br from-[#1870f6] to-[#32fefe] py-20 px-5 from-70% md:px-[140px] md:py-[100px] md:flex-col box-content m-10 mb-35 md:m-0">
         <!-- heading -->
-         <div class="md:text-5xl md:py-8 text-white  text-6xl mb-5 md:mb-0">
+         <div class="md:text-5xl md:py-8 text-white  text-3xl mb-5 md:mb-0">
           <p>
             Coming Q1 2025
           </p>
          </div>
 
          <!-- text -->
-          <div class="text-white/80 text-2xl">
+          <div class="text-white/80 text-[25px]">
+            <ul class="list-disc pl-5">
             <li>Full fund details and officer announcements</li>
             <li>TradeDividends program specifics</li>
             <li>Institutional partnership roadmap</li>
             <li>Regulatory framework overview</li>
+            </ul>
           </div>
 
       </div>
@@ -346,5 +362,9 @@
 
 
   <script src="/js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
