@@ -2312,9 +2312,6 @@ body {
   background-image: url('/img/shutterstock_1969544767.png');
   background-repeat: no-repeat;
 }
-body {
-  background-image: url('/img/Vector.png');
-}
 @media screen and (max-width: 767px) {
   body {
     background-color: #000;
