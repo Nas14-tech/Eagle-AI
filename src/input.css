@@ -5,7 +5,6 @@
 
 *{
   /* border: 1px solid red; */
-  width: full;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -30,6 +29,7 @@ body{
   background-image: url('/img/shutterstock_1969544767.png');
   background-repeat: no-repeat;
 }
+
 
 
 @media screen and (max-width: 767px) {
