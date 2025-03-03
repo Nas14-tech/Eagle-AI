@@ -22,13 +22,18 @@
   --breakpoint-3xl: 1900px;
 }
 
-body{
+
+
+body {
   background-color: #000614;
   overflow-x: hidden;
-  width: 100%;
+  /* width: 100%; */
   background-image: url('/img/shutterstock_1969544767.png');
   background-repeat: no-repeat;
 }
+
+
+
 
 
 

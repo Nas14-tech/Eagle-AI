@@ -238,11 +238,41 @@
   .end-2 {
     inset-inline-end: calc(var(--spacing) * 2);
   }
+  .top-\[-152\.68px\] {
+    top: -152.68px;
+  }
+  .top-\[-1052\.68px\] {
+    top: -1052.68px;
+  }
+  .top-\[152\.68px\] {
+    top: 152.68px;
+  }
+  .top-\[1052\.68px\] {
+    top: 1052.68px;
+  }
+  .top-\[1052\] {
+    top: 1052;
+  }
+  .top-\[2052\.68px\] {
+    top: 2052.68px;
+  }
+  .top-\[3052\.68px\] {
+    top: 3052.68px;
+  }
   .right-5 {
     right: calc(var(--spacing) * 5);
   }
   .left-6 {
     left: calc(var(--spacing) * 6);
+  }
+  .left-\[240px\] {
+    left: 240px;
+  }
+  .left-\[340px\] {
+    left: 340px;
+  }
+  .left-\[2400px\] {
+    left: 2400px;
   }
   .isolate {
     isolation: isolate;
@@ -382,9 +412,6 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-30 {
-    margin-top: calc(var(--spacing) * 30);
-  }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
@@ -481,14 +508,59 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  .h-50 {
+    height: calc(var(--spacing) * 50);
+  }
+  .h-\[7\] {
+    height: 7;
+  }
+  .h-\[19\] {
+    height: 19;
+  }
   .h-\[35px\] {
     height: 35px;
+  }
+  .h-\[50\%\] {
+    height: 50%;
+  }
+  .h-\[100\%\] {
+    height: 100%;
   }
   .h-\[100px\] {
     height: 100px;
   }
   .h-\[108px\] {
     height: 108px;
+  }
+  .h-\[762px\] {
+    height: 762px;
+  }
+  .h-\[1000px\] {
+    height: 1000px;
+  }
+  .h-\[1500px\] {
+    height: 1500px;
+  }
+  .h-\[1600px\] {
+    height: 1600px;
+  }
+  .h-\[1700px\] {
+    height: 1700px;
+  }
+  .h-\[1800px\] {
+    height: 1800px;
+  }
+  .h-\[1815px\] {
+    height: 1815px;
+  }
+  .h-\[1850px\] {
+    height: 1850px;
+  }
+  .h-\[1900px\] {
+    height: 1900px;
+  }
+  .h-\[1915px\] {
+    height: 1915px;
   }
   .h-auto {
     height: auto;
@@ -508,14 +580,35 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
+  }
+  .w-\[1px\] {
+    width: 1px;
   }
   .w-\[80\%\] {
     width: 80%;
   }
   .w-\[100px\] {
     width: 100px;
+  }
+  .w-\[1696\.53px\] {
+    width: 1696.53px;
+  }
+  .w-\[1696\.px\] {
+    width: 1696.px;
+  }
+  .w-\[1698px\] {
+    width: 1698px;
+  }
+  .w-\[1815px\] {
+    width: 1815px;
+  }
+  .w-\[px\] {
+    width: px;
   }
   .w-auto {
     width: auto;
@@ -1105,6 +1198,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
   .border-x {
     border-inline-style: var(--tw-border-style);
     border-inline-width: 1px;
@@ -1429,14 +1526,14 @@
   .pt-\[80px\] {
     padding-top: 80px;
   }
+  .pb-\[80px\] {
+    padding-bottom: 80px;
+  }
   .pb-\[120px\] {
     padding-bottom: 120px;
   }
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
-  }
-  .pl-5 {
-    padding-left: calc(var(--spacing) * 5);
   }
   .text-center {
     text-align: center;
@@ -1747,6 +1844,12 @@
   }
   .scheme-only-light {
     color-scheme: only light;
+  }
+  .opacity-\[10\%\] {
+    opacity: 10%;
+  }
+  .opacity-\[90\%\] {
+    opacity: 90%;
   }
   .mix-blend-plus-darker {
     mix-blend-mode: plus-darker;
@@ -2113,6 +2216,11 @@
       padding-inline: 20px;
     }
   }
+  .max-md\:py-10 {
+    @media (width < 768px) {
+      padding-block: calc(var(--spacing) * 10);
+    }
+  }
   .max-md\:text-\[12px\] {
     @media (width < 768px) {
       font-size: 12px;
@@ -2156,11 +2264,6 @@
   .md\:mx-auto {
     @media (width >= 768px) {
       margin-inline: auto;
-    }
-  }
-  .min-md\:mt-30 {
-    @media (width >= 768px) {
-      margin-top: calc(var(--spacing) * 30);
     }
   }
   .md\:mb-0 {
@@ -2243,6 +2346,11 @@
       padding-block: calc(var(--spacing) * 8);
     }
   }
+  .min-md\:pb-\[80px\] {
+    @media (width >= 768px) {
+      padding-bottom: 80px;
+    }
+  }
   .md\:text-left {
     @media (width >= 768px) {
       text-align: left;
@@ -2297,7 +2405,6 @@
 body {
   background-color: #000614;
   overflow-x: hidden;
-  width: 100%;
   background-image: url('/img/shutterstock_1969544767.png');
   background-repeat: no-repeat;
 }
